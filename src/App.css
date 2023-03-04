@@ -1,0 +1,53 @@
+.home-main {
+  background-color: #efefef;
+}
+
+.img-block {
+  min-height: 200px;
+  background: #f7f7f7;
+}
+
+.world-banner {
+  min-height: 250px;
+  /* background: url("../public/img/world.jpg");
+  background-position: 100% 100%;
+  background-size: cover; */
+  background-color: #0f07e3;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+strong {
+  color: rgb(1, 0, 9);
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #ff233d;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-check:focus + .btn-primary,
+.btn-primary:focus,
+.btn-check:active + .btn-primary,
+.btn-check:checked + .btn-primary,
+.btn-primary.active,
+.btn-primary:active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #ff233d;
+  border-color: #ff233d;
+  opacity: 0.85;
+}
+
+.btn-check:active + .btn-primary:focus,
+.btn-check:checked + .btn-primary:focus,
+.btn-primary.active:focus,
+.btn-primary:active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: none;
+}
